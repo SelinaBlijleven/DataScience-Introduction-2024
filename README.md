@@ -74,7 +74,7 @@ and more user-friendly.
 ![img.png](resources/matplotlib_plot.png)
 *Example of a matplotlib plot (source: w3schools.com)*
 
-![Example of a seaborn plot](seaborn_plot.png)
+![Example of a seaborn plot](resources/seaborn_plot.png)
 *Example of a seaborn plot*
 
 ### Visualization Study Materials
