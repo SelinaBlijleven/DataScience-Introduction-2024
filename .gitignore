@@ -1,2 +1,5 @@
 # Ignore IDE folders
 /.idea/*
+
+# Ignore the demo that will crash your computer
+/numpy_examples/numpy_array_speed.py
