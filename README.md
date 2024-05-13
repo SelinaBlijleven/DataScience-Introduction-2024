@@ -36,7 +36,7 @@ command line tool to install your python packages. This can be done in two ways:
 `pip install -r requirements.txt`
 
 The `-r` matters here, it makes sure the dependencies are installed recursively. You should now be ready 
-to go.
+to go. Open your IDE and start sciencing some data! :)
 
 ## Learning Python
 
@@ -47,6 +47,7 @@ You will also learn about the data science ecosystem including Anaconda and the 
 
 - Demo's and cheatsheets in python_examples
 - [Kaggle's interactive course](https://www.kaggle.com/learn/python)
+- [Python Coding Challenges](https://pythonprinciples.com/challenges/)
 
 ## NumPy
 
@@ -97,6 +98,9 @@ It is a great library to get acquainted with the basics of machine learning.
 
 ## Other materials
 
+The following materials are either extras, background articles or advanced materials. These are all free, or can be accessed 
+through free trials/accounts.
+
 ### Datasets
 
 - [HuggingFace](https://huggingface.co/datasets)
@@ -123,3 +127,8 @@ and (linear) algebra.
 ### Models
 
 - [HuggingFace](https://huggingface.co/models)
+
+### Advanced
+
+- Book: [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+- Online courses: [Machine Learning, Andrew NG](https://www.andrewng.org/courses/)
