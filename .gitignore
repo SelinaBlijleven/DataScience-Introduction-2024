@@ -3,3 +3,6 @@
 
 # Ignore the demo that will crash your computer
 /numpy_examples/numpy_array_speed.py
+
+# Ignore data that may be regenerated
+/python_examples/countries.csv
