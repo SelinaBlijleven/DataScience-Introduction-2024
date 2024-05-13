@@ -40,6 +40,9 @@ to go.
 
 ## Learning Python
 
+The first part of the training will repeat some basics of Python and how they compare to our Data Science tools. 
+You will also learn about the data science ecosystem including Anaconda and the most popular IDE's.
+
 ### Python Learning Resources
 
 - Demo's and cheatsheets in python_examples
@@ -64,6 +67,8 @@ course we will work with Pandas, as it is the most popular choice at the moment 
 
 - Demo's in pandas_examples
 - [Kaggle's interactive Pandas course](https://www.kaggle.com/learn/pandas)
+
+Additional material tip: look into the possibilities of [feature engineering](https://www.kaggle.com/learn/feature-engineering)
 
 ## Seaborn & Matplotlib
 
