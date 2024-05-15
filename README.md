@@ -70,6 +70,7 @@ course we will work with Pandas, as it is the most popular choice at the moment 
 ### Pandas Study Materials
 
 - Demo's in pandas_examples
+- [Outlier detection in Pandas](https://saturncloud.io/blog/how-to-detect-and-exclude-outliers-in-a-pandas-dataframe/)
 - [Kaggle's interactive Pandas course](https://www.kaggle.com/learn/pandas)
 
 Additional material tip: look into the possibilities of [feature engineering](https://www.kaggle.com/learn/feature-engineering)

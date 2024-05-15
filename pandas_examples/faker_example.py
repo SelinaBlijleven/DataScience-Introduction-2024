@@ -21,7 +21,6 @@ def generate_fakes(n=N, f=fake.name) -> list:
     """
     return [f() for _ in range(n-1)]
 
-
 # Aanmaken vanaf kolommen
 df = pd.DataFrame(
     data={
@@ -35,3 +34,4 @@ df = pd.DataFrame(
 
 print(df.head())
 df.to_csv('faker.csv', index=False)
+
