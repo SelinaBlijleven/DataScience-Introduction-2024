@@ -48,7 +48,7 @@ np.float17
 """
 float_types = [np.float32, np.float64]
 
-""" Upcasting """
+""" Upcasting mixed integers/floats """
 # Creating a NumPy array from a mixed list
 mixed_array = np.array([1, 2.5, 3, 4.7, 5])
 
@@ -70,6 +70,31 @@ str_type = np.str_
 """ Objects also have different sizes """
 obj_type = np.object_
 
+import numpy as np
+
+""" Date and Time Datatypes """
+
+# Creating a date array
+date_array = np.array(['2023-01-01', '2023-02-01', '2023-03-01'], dtype='datetime64[D]')
+print(f"Date array: {date_array}")
+
+# Creating a time array
+time_array = np.array(['2023-01-01T12:00', '2023-02-01T13:30', '2023-03-01T15:45'], dtype='datetime64[m]')
+print(f"Time array: {time_array}")
+
+# Creating an array with a time delta
+time_delta_array = np.array([1, 2, 3], dtype='timedelta64[D]')
+print(f"Time delta array: {time_delta_array}")
+
+# Demonstrating operations with datetime
+start_date = np.datetime64('2023-01-01')
+end_date = start_date + np.timedelta64(10, 'D')
+print(f"Start date: {start_date}, End date (10 days later): {end_date}")
+
+# Current date and time
+current_datetime = np.datetime64('now')
+print(f"Current date and time: {current_datetime}")
+
 """ Data type sizes in bytes (1 byte = 8 bit) """
 sizes = {
     np.int8: 1, np.int16: 2, np.int32: 4, np.int64: 8,
@@ -77,6 +102,7 @@ sizes = {
     np.float16: 2, np.float32: 4, np.float64: 8,
     np.complex64: 8, np.complex128: 16,
     np.bool_: 1,
-    np.str_: 0,     # Variable-length string
-    np.object_: 0   # Variable-length object
+    np.str_: 0,         # Variable-length string
+    np.object_: 0,      # Variable-length object
+    np.datetime64: 8
 }

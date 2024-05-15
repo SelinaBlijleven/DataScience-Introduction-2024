@@ -1,3 +1,8 @@
+"""
+clean_data.py
+
+General flow for cleaning a dataset
+"""
 import pandas as pd
 
 # Load the dataset

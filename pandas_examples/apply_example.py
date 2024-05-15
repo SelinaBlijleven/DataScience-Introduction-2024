@@ -1,7 +1,8 @@
 """
 apply_example.py
 
-Use one data column to generate data for another
+Use one data column to generate data for another. This demo is meant to show off
+the apply() function to apply one function to a whole column. This eliminates the need for a slow for-loop.
 """
 import numpy as np
 import pandas as pd

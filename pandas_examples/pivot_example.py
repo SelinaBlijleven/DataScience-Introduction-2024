@@ -1,3 +1,9 @@
+"""
+pivot_example.py
+
+Example showing the possibilities of generating pivot tables
+for your data using Pandas.
+"""
 import pandas as pd
 
 # Creating the DataFrame: We create a simple dataset with columns Date, Category, Sub-Category, Sales, and Quantity.

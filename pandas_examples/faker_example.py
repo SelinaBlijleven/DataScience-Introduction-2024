@@ -1,7 +1,11 @@
 """
 build_dataframe.py
 
-Builds klantenbestand.csv for a dummy dataset.
+Builds klantenbestand.csv for a dummy dataset using the faker library,
+which can be used to generate somewhat real looking data.
+
+Note that this simple application will generate email addresses that contain entirely
+different names.
 """
 import pandas as pd
 from faker import Faker

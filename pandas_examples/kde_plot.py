@@ -1,7 +1,9 @@
 """
 normal-distribution-demo.py
 
-A distribution of how different sample sizes will affect your data.
+This demo was originally written to demonstrate how different sample sizes will affect your results.
+It also functions as a nice example of how a kernel density estimate can be added to a plot to
+help visualize results.
 
 See also:
     The Galton Board (will help you understand the central limit theorem!

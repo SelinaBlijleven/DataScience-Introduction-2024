@@ -4,6 +4,10 @@ numpy_array_speed.py
 I had ChatGPT write this script to make a point: you need to use NumPy for any kind of heavy number lifting. Through
 experimentation, I have found that 100000000 is the maximum number of zeroes before my current setup hits a memory
 limit.
+
+The reason for this is the overhead needed to store a list using mixed types (which is Python's default), which makes
+computation slow. NumPy not only allows us to create type-specific arrays, but also to perform efficient computations
+using the data. It is essential for scientific Python!
 """
 import numpy as np
 import time

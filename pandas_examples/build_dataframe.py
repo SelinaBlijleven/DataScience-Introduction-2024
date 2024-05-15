@@ -1,7 +1,8 @@
 """
 build_dataframe.py
 
-Builds klantenbestand.csv for a dummy dataset.
+Builds klantenbestand.csv for a dummy dataset. If you want more realistic dummy data,
+check out the faker_example for an example using the faker library.
 """
 import numpy as np
 import pandas as pd
