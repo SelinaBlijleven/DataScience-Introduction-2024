@@ -1,7 +1,7 @@
 # Introduction to Data Science 2024
 
 Welcome to the repository containing examples and information for the course Introduction to Data Science. More information 
-will of course be added as we go.
+ will, of course, be added as we go.
 
 Authors:
 - Tessel Haagen <tessel.haagen@code-cafe.nl>
@@ -23,8 +23,11 @@ The course is based on the Data Science Handbook from Jake vanderPlas, which is 
 
 Getting started with this project requires the following:
 
-- Python interpreter (3.10 recommended for compatibility)
+- Python interpreter ([3.10](https://www.python.org/downloads/release/python-31014/) recommended for compatibility)
 - An IDE of your choice, preferably using a virtual environment (also for compatibility)
+  - PyCharm (great for version control, software dev, refactoring)
+  - Spyder (nice for beginners, provides a variable explorer and IPython console)
+  - Visual Studio Code (all the plugins for a custom experience)
 - Alternatively; use a virtual machine if one is provided in this case
 
 At this point pip should have automatically been installed with our python installation. We will use this 
@@ -108,7 +111,7 @@ through free trials/accounts.
 - [OpenML](https://www.openml.org/search?sort=date)
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 - [Awesome Public Datasets Repository on GitHub](https://github.com/awesomedata/awesome-public-datasets)
-- Many of the API's from the API examples in the Python folder also have data we can use.
+- Many of the APIs from the API examples in the Python folder also have data we can use.
 
 If you want something very accessible to practice with, the [Seaborn](https://seaborn.pydata.org/generated/seaborn.load_dataset.html) and [Scikit-learn](https://scikit-learn.org/stable/datasets/toy_dataset.html) libraries also have their own data sets 
 that are easy to load and partially pre-processed.
