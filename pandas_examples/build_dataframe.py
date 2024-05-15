@@ -4,9 +4,11 @@ build_dataframe.py
 Builds klantenbestand.csv for a dummy dataset. If you want more realistic dummy data,
 check out the faker_example for an example using the faker library.
 """
+import os
 import numpy as np
 import pandas as pd
 
+path = os.getcwd() + "/data/"
 
 namen = ["A", "B", "C", "D", "E", "F", "G"]
 emailadressen = []
@@ -38,7 +40,7 @@ df = pd.DataFrame(
 )
 
 print(df.describe())
-#df.to_csv('klantenbestand.csv', index=False)
+#df.to_csv(path + "klantenbestand.csv", index=False)
 
 # Zoek naar een specifieke unieke index (label)
 print(df.loc[['C@mail.com', 'G@mail.com']])

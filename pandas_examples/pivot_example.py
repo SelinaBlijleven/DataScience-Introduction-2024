@@ -4,7 +4,11 @@ pivot_example.py
 Example showing the possibilities of generating pivot tables
 for your data using Pandas.
 """
+import os
 import pandas as pd
+
+# Path for output
+path = os.getcwd() + "/data/"
 
 # Creating the DataFrame: We create a simple dataset with columns Date, Category, Sub-Category, Sales, and Quantity.
 # Create a sample dataset
@@ -41,7 +45,7 @@ pivot_table = pd.pivot_table(df,
 print("\nPivot Table:")
 print(pivot_table)
 
-pivot_table.to_csv('pivot_table.csv')
+pivot_table.to_csv(path + 'pivot_table.csv')
 
 """
 This pivot table aggregates the Quantity by calculating the mean for each Category and Date.
@@ -57,4 +61,5 @@ pivot_table_quantity = pd.pivot_table(df,
 print("\nPivot Table with Quantity (Mean):")
 print(pivot_table_quantity)
 
-pivot_table_quantity.to_csv('pivot_table_quantity.csv')
+
+pivot_table_quantity.to_csv(path + 'pivot_table_quantity.csv')
