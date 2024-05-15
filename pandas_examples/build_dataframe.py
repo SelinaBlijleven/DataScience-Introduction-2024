@@ -1,5 +1,7 @@
 """
 build_dataframe.py
+
+Builds klantenbestand.csv for a dummy dataset.
 """
 import numpy as np
 import pandas as pd
